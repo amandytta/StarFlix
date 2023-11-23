@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    outline: none;
+}
+
+header {
+    text-align: center;
+    height: 100px;
+    padding: 10px;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    
+    text-align: center;
+    background-image: url("https://i.pinimg.com/736x/e4/52/df/e452df699aeffcd8c44e87b0bcd20b7e--star-wars-wallpaper-hd-wallpaper.jpg");
+    background-color: #161614;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa {
+    margin: 10px 0px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    margin: 15px;
+    color: white;
+    margin-top: 0 0 5px;
+}
+
+.page-logo {
+    max-height: 250px;
+    width: 200px;
+}
+
+@media (max-height: 800px) {}
+
+body {
+    min-height: 800px;
+}
+
+#cartaz-filmes {
+    margin: 10px;
+    border-color: grey;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nome-filme {
+    margin: 10px;
+    color: lightgrey;
+}
+
+.filme {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+#cartaz-filmes img {
+    margin: 10px;
+    max-height: 250px;
+}
+
+.form-wrapper {
+    margin: 15px auto;
+    text-align: center;
+    width: 260px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: grey;
+}
+
+.form-wrapper input {
+    margin: 0 auto;
+    padding: 10px 20px;
+    width: 173px;
+    border-radius: 5px;
+    background: lightgrey;
+    border-color: grey;
+    display: block;
+}
+
+.form-wrapper button {
+    border: 0;
+    color: #ffffff;
+    background: #da1e26;
+    font-weight: bold;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-wrapper button:hover {
+    opacity: 0.8;
+}
+
+fieldset {
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+    border-color: grey;
+    border-radius: 10px;
+    color: lightgrey;
+}
