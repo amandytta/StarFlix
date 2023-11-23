@@ -18,6 +18,6 @@ Contém um sistema de validação que, caso nenhum campo seja preenchido, irá a
 
 Além disso, também contém uma validação para aceitar somente imagens em formato jpg ou jpeg.
 
-Feito com 💜 por [AS](https://github.com/amandytta/)
+Feito com 💜 por [AS](https://www.linkedin.com/in/amandaa-souza/)
 
 
